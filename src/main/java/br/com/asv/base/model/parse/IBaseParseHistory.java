@@ -1,4 +1,4 @@
-package br.com.asv.asvbase.model.parse;
+package br.com.asv.base.model.parse;
 
 public interface IBaseParseHistory<E> {
 	

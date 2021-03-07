@@ -1,4 +1,4 @@
-package br.com.asv.asvbase.client.dto;
+package br.com.asv.base.client.dto;
 
 public interface IBaseDto<I> {
 	

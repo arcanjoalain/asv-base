@@ -1,4 +1,4 @@
-package br.com.asv.asvbase.model.enums;
+package br.com.asv.base.model.enums;
 
 
 public enum StatusEntityEnum {

@@ -1,7 +1,7 @@
-package br.com.asv.asvbase.model.parse;
+package br.com.asv.base.model.parse;
 
-import br.com.asv.asvbase.client.dto.IBaseDto;
-import br.com.asv.asvbase.model.entities.IBaseEntity;
+import br.com.asv.base.client.dto.IBaseDto;
+import br.com.asv.base.model.entities.IBaseEntity;
 
 public interface IBaseParse<E extends IBaseEntity<I>, D extends IBaseDto<I>,I> {
 

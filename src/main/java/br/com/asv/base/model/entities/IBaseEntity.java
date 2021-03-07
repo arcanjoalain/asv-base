@@ -1,8 +1,8 @@
-package br.com.asv.asvbase.model.entities;
+package br.com.asv.base.model.entities;
 
 import java.util.Date;
 
-import br.com.asv.asvbase.model.enums.StatusEntityEnum;
+import br.com.asv.base.model.enums.StatusEntityEnum;
 
 public interface IBaseEntity<I> {
 	
