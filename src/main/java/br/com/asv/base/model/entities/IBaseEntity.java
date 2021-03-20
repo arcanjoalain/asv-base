@@ -14,9 +14,9 @@ public interface IBaseEntity<I> {
 	
 	void setCreatedAt(Date dateAt);
 		
-	Long getCreateUserPid();
+	I getCreateUserPid();
 	
-	void setCreateUserPid(Long createUserPid);
+	void setCreateUserPid(I createUserPid);
 		
 	StatusEntityEnum getStatusEntity();
 	

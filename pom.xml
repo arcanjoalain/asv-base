@@ -10,13 +10,22 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<artifactId>base</artifactId>
-	<version>0.1.5</version>
+	<version>0.1.6</version>
 	<name>asv-base</name>
 
 	<description>Project Base to Project ASV</description>
 
 	<dependencies>
-		
+		<dependency>
+			<groupId>com.github.java-json-tools</groupId>
+			<artifactId>json-patch</artifactId>
+			<version>1.12</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-commons</artifactId>
+		</dependency>
 
 	</dependencies>
 
