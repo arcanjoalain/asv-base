@@ -11,6 +11,6 @@ public interface IHistoryEntity<E,I> extends IBaseEntity<I>, Serializable{
 	void setEntity(E entity);
 	E getEntity();
 	void prepareEntity();
-	IBaseParse<?,?,I> getParse(); 
+	IBaseParse<?,?,?,?> getParse(); 
 
 }
