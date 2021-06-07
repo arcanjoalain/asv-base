@@ -1,10 +1,11 @@
 package br.com.asv.base.model.entities;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import br.com.asv.base.model.enums.StatusEntityEnum;
 
-public interface IBaseEntity<I> {
+public interface IBaseEntity<I extends Serializable> extends Serializable{
 	
 	I getPid();
 	

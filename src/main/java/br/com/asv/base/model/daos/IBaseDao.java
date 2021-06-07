@@ -1,5 +1,6 @@
 package br.com.asv.base.model.daos;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 
@@ -10,7 +11,7 @@ import org.springframework.data.domain.Sort;
 import br.com.asv.base.model.entities.IBaseEntity;
 import br.com.asv.base.model.enums.StatusEntityEnum;
 
-public interface IBaseDao<E extends IBaseEntity<I>,I> {
+public interface IBaseDao<E extends IBaseEntity<I>,I extends Serializable> {
 	
 	E save(E model);
 	Collection<E> save(Collection<E> models);

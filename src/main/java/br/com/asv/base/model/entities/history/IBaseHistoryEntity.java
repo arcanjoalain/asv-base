@@ -1,11 +1,12 @@
 package br.com.asv.base.model.entities.history;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import br.com.asv.base.model.entities.IBaseEntity;
 
 
-public interface IBaseHistoryEntity<I> extends IBaseEntity<I>{
+public interface IBaseHistoryEntity<I extends Serializable> extends IBaseEntity<I>{
 	
 	Date getLastModifiedAt();
 	
