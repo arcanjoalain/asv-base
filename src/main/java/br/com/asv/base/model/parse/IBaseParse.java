@@ -15,10 +15,14 @@ public interface IBaseParse<
 	D convert(E entity);
 
 	D convert(E entity, boolean isFull) ;
+	
+	D convertImpl(E entity, boolean isFull) ;
 
 	E convert(D dto) throws IllegalArgumentException;
 
 	E convert(D dto, boolean isFull) throws IllegalArgumentException;
+	
+	E convertImpl(D dto, boolean isFull) throws IllegalArgumentException;
 	
 	I convertPidEntity(O id);
 	

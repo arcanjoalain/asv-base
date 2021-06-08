@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<artifactId>base</artifactId>
-	<version>0.1.19</version>
+	<version>0.1.20</version>
 	<name>asv-base</name>
 
 	<description>Project Base to Project ASV</description>
