@@ -1,6 +1,8 @@
 package br.com.asv.base.model.parse;
 
 import java.io.Serializable;
+import java.util.List;
+
 import br.com.asv.base.client.dto.IBaseDto;
 import br.com.asv.base.model.entities.IBaseEntity;
 
@@ -27,5 +29,13 @@ public interface IBaseParse<
 	I convertPidEntity(O id);
 	
 	O convertPidDto(I id) throws IllegalArgumentException;
+	
+	List<E> convertEntities(List<D> dtos);
+	
+	List<E> convertEntities(List<D> dtos, boolean isFull);
+	
+	List<D> convertDtos(List<E> dtos);
+	
+	List<D> convertDtos(List<E> dtos, boolean isFull);
 
 }
