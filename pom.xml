@@ -6,11 +6,11 @@
 	<parent>
 		<groupId>br.com.asv</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.1.9</version>
+		<version>0.1.13</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<artifactId>base</artifactId>
-	<version>0.1.23</version>
+	<version>0.1.27</version>
 	<name>asv-base</name>
 
 	<description>Project Base to Project ASV</description>
@@ -26,8 +26,6 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-commons</artifactId>
 		</dependency>
-
-
 	</dependencies>
 	
 
