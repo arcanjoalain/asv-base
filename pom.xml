@@ -3,14 +3,16 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	
 	<parent>
 		<groupId>br.com.asv</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.1.13</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<version>0.2.0</version>
+		<relativePath />
 	</parent>
+	
 	<artifactId>base</artifactId>
-	<version>0.1.27</version>
+	<version>0.2.00</version>
 	<name>asv-base</name>
 
 	<description>Project Base to Project ASV</description>

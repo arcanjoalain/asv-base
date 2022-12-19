@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 import lombok.Getter;
+
 import lombok.Setter;
 
 public class Response<
