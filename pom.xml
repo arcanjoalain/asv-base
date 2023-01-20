@@ -7,12 +7,12 @@
 	<parent>
 		<groupId>br.com.asv</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.2.0</version>
+		<version>0.2.1</version>
 		<relativePath />
 	</parent>
 	
 	<artifactId>base</artifactId>
-	<version>0.2.00</version>
+	<version>0.2.01</version>
 	<name>asv-base</name>
 
 	<description>Project Base to Project ASV</description>
